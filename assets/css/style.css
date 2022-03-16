@@ -24,6 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,19 +33,20 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
+ /*header nav ul {  
+     list-style-type: none; 
+  }  */
 
-header nav ul li {
+header nav li {
     display: inline-block;
     margin-left: 25px;
-}
+    list-style-type: none;
+} 
 
 a {
     color: #ffffff;
     text-decoration: none;
-}
+} 
 
 p {
     font-size: 16px;
@@ -59,15 +61,19 @@ p {
     background-position: center;
 }
 
+/* Images in the main content area to move to the left 
+and have the text to the right  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Images in the main content area move to the right and text will be left adjusted */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 
 main {
     width: 75%;
@@ -154,7 +160,7 @@ aside {
 */
 
 
-.details {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,11 +169,11 @@ aside {
     color: #ffffff; 
 }
 
-.details img {
+article img {
     max-height: 200px;
 }
 
-.details h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
