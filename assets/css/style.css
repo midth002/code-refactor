@@ -37,17 +37,21 @@ header nav {
      list-style-type: none; 
   }  */
 
+/* Using the list in the navbar, we want to have an inline block to set the width and height.
+Use no list style so no bullet points are showing */
 header nav li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 } 
 
+/* No underline decoration for the links with a lighter color for the text */
 a {
     color: #ffffff;
     text-decoration: none;
 } 
 
+/* Font-Size for every paragraph text */
 p {
     font-size: 16px;
 }
@@ -74,13 +78,15 @@ and have the text to the right  */
     margin-left: 25px;
 }
 
-
+/* This allows us to set the width and height of the main container for the articles with inline block. 
+having the width of 75% to have room for the sidebar*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Float right for the side bar with only a width of 20% of the specific webpage window */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -108,58 +114,8 @@ aside {
     max-width: 150px;
 }
 
- /* 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} 
-
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
-
+/* The element is styling for the specific articles and all articles will have these same 
+styles to them. */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,6 +125,7 @@ article {
     color: #ffffff; 
 }
 
+/* Only want to have a maxiumum height of the article images to be 200px. */
 article img {
     max-height: 200px;
 }
@@ -177,6 +134,20 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+
+/* Original code for the original classes in the HTML for the main article section.  */
 
 /*
 .search-engine-optimization {
@@ -235,13 +206,56 @@ article h2 {
 
 */
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* Original css styling code for the original classes in the sidebar section */
+
+ /* 
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} 
+
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
+
